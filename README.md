@@ -18,25 +18,39 @@ It extracts and normalizes audio, then produces a timestamped text transcript.
 ---
 
 ## Formats
+
 Video:
 
-MP4 (.mp4) 
+MP4 (.mp4) — very widely used video container
+
 AVI (.avi)
-MOV (.mov) 
+
+MOV (.mov) — Apple QuickTime format
+
 WMV (.wmv)
+
 FLV (.flv)
+
 WEBM (.webm)
+
 MPEG (.mpg, .mpeg)
-MTS/M2TS (.mts, .m2ts) 
+
+MTS/M2TS (.mts, .m2ts) — often from cameras
+
 MXF (.mxf)
 
 Audio:
 
 WAV (.wav)
+
 MP3 (.mp3)
+
 AAC (.aac)
+
 OGG (.ogg)
+
 FLAC (.flac)
+
 M4A (.m4a)
 
 ## Installation
