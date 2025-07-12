@@ -22,5 +22,5 @@ It extracts and normalizes audio, then produces a timestamped text transcript.
 You can install Slate via a Debian package:
 
 ```bash
-sudo dpkg -i slate_1.0.0_all.deb
+sudo dpkg -i slate_1.0.1_all.deb
 sudo apt-get install -f  # to fix dependencies if needed
