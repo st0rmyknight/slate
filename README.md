@@ -24,13 +24,3 @@ You can install Slate via a Debian package:
 ```bash
 sudo dpkg -i slate_1.0.0_all.deb
 sudo apt-get install -f  # to fix dependencies if needed
-
-Slate requires:
-
-Python 3.8+
-
-FFmpeg installed system-wide
-
-Python packages: whisper, tqdm
-
-These dependencies are bundled or installed automatically during package setup.
