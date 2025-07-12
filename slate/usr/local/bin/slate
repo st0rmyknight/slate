@@ -1,0 +1,3 @@
+#!/bin/bash
+/opt/slate/run.sh "$@"
+

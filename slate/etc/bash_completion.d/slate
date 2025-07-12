@@ -1,0 +1,27 @@
+_slate_autocomplete() {
+    local cur prev
+    COMPREPLY=()
+    _get_comp_words_by_ref -n =: cur prev
+
+    # Prevent Bash from adding a space
+    compopt -o nospace 2>/dev/null
+
+    # Suggest --model values
+    if [[ "$prev" == "--model" ]]; then
+        COMPREPLY=( $(compgen -W "tiny base small medium large" -- "$cur") )
+        return 0
+    fi
+
+    # File and directory completion
+    local IFS=$'\n'
+    local matches=( $(compgen -f -- "$cur") )
+    for match in "${matches[@]}"; do
+        if [[ -d "$match" ]]; then
+            COMPREPLY+=("${match}/")  # slash avoids space
+        else
+            COMPREPLY+=("$match")
+        fi
+    done
+}
+complete -F _slate_autocomplete slate
+

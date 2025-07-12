@@ -1,0 +1,10 @@
+Package: slate
+Version: 1.0.1
+Section: utils
+Priority: optional
+Architecture: all
+Depends: bash, ffmpeg, python3
+Maintainer: Tim Scott
+Description: Slate is a simple MKV-to-transcript converter using Whisper.
+ Transcribes MKV files and outputs clean, timestamped text.
+

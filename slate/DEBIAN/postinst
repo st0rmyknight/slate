@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "[Slate] Creating virtual environment..."
+cd /opt/slate || exit 1
+python3 -m venv venv
+source venv/bin/activate
+venv/bin/pip install --upgrade pip
+venv/bin/pip install git+https://github.com/openai/whisper.git tqdm
+deactivate
+
