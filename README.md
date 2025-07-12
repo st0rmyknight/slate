@@ -26,3 +26,13 @@ sudo dpkg -i slate_1.0.1_all.deb
 sudo apt-get install -f  # to fix dependencies if needed
 ```
 slate [--model MODEL] [--language LANG] <input.mkv> <output.txt>
+
+example:
+
+slate --model small --language en /home/user/Downloads/movie.mkv /home/user/Documents/transcript.txt
+This command:
+
+- Uses the **small** Whisper model for faster transcription
+- Forces transcription in **English** (`--language en`)
+- Processes `movie.mkv` from the Downloads folder
+- Saves the transcript to the Documents folder
