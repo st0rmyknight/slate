@@ -19,6 +19,7 @@ It extracts and normalizes audio, then produces a timestamped text transcript.
 
 ## Formats
 Video:
+
 MP4 (.mp4) 
 AVI (.avi)
 MOV (.mov) 
@@ -30,6 +31,7 @@ MTS/M2TS (.mts, .m2ts)
 MXF (.mxf)
 
 Audio:
+
 WAV (.wav)
 MP3 (.mp3)
 AAC (.aac)
