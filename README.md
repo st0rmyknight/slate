@@ -1,6 +1,6 @@
 # Slate
 
-**Slate** is a command-line tool to transcribe audio from video files using OpenAI's Whisper model.  
+**Slate** is a command-line tool to transcribe audio from video/audio files using OpenAI's Whisper model.  
 It extracts and normalizes audio, then produces a timestamped text transcript.
 
 ---
@@ -16,6 +16,26 @@ It extracts and normalizes audio, then produces a timestamped text transcript.
 - Optional Bash autocomplete for smoother command-line experience  
 
 ---
+
+## Formats
+Video:
+MP4 (.mp4) 
+AVI (.avi)
+MOV (.mov) 
+WMV (.wmv)
+FLV (.flv)
+WEBM (.webm)
+MPEG (.mpg, .mpeg)
+MTS/M2TS (.mts, .m2ts) 
+MXF (.mxf)
+
+Audio:
+WAV (.wav)
+MP3 (.mp3)
+AAC (.aac)
+OGG (.ogg)
+FLAC (.flac)
+M4A (.m4a)
 
 ## Installation
 
