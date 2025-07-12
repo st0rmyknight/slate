@@ -61,7 +61,7 @@ You can install Slate via a Debian package:
 sudo dpkg -i slate_1.0.1_all.deb
 sudo apt-get install -f  # to fix dependencies if needed
 ```
-slate [--model MODEL] [--language LANG] <input.mkv> <output.txt>
+slate [--model MODEL] [--language LANG] [--summarize] <input.mkv> <output.txt>
 
 example:
 
