@@ -1,13 +1,13 @@
 # Slate
 
-**Slate** is a command-line tool to transcribe audio from MKV video files using OpenAI's Whisper model.  
+**Slate** is a command-line tool to transcribe audio from video files using OpenAI's Whisper model.  
 It extracts and normalizes audio, then produces a timestamped text transcript.
 
 ---
 
 ## Features
 
-- Extracts audio from MKV files using FFmpeg  
+- Extracts audio from video files using FFmpeg  
 - Normalizes audio volume for better transcription accuracy  
 - Uses OpenAI Whisper for state-of-the-art speech-to-text transcription  
 - Provides clean, timestamped transcripts  
